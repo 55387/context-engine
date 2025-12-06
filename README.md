@@ -226,6 +226,6 @@ This implementation is inspired by the Context Engineering whitepaper and best p
 ## 📬 Support
 
 - 📧 Email: support@example.com
-- 🐛 Issues: [GitHub Issues](https://github.com/your-org/context-engine/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/your-org/context-engine/discussions)
+- 🐛 Issues: [GitHub Issues](https://github.com/55387/context-engine/issues)
+- 💬 Discussions: [GitHub Discussions](https://github.com/55387/context-engine/discussions)
 
