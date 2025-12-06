@@ -1,0 +1,50 @@
+# 源代码
+src/
+tests/
+examples/
+
+# 配置文件
+*.config.js
+*.config.ts
+tsconfig.json
+.eslintrc.*
+.prettierrc
+.editorconfig
+
+# 测试相关
+*.test.ts
+*.spec.ts
+coverage/
+.nyc_output/
+
+# 开发文件
+.env
+.env.local
+.env.*.local
+data/
+*.log
+*.tsbuildinfo
+
+# 文档草稿
+docs/
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 其他
+node_modules/
+tmp/
+temp/

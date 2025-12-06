@@ -1,0 +1,74 @@
+{
+    "name": "@55387.ai/context-engine",
+    "version": "1.0.0",
+    "description": "TypeScript implementation of Context Engineering for LLM agents - supporting Sessions, Memory, and dynamic context assembly",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "bin": {
+        "context-engine": "dist/cli/index.js"
+    },
+    "files": [
+        "dist",
+        "README.md",
+        "README_CN.md",
+        "LICENSE",
+        ".env.example"
+    ],
+    "scripts": {
+        "build": "npm run clean && tsc",
+        "clean": "rm -rf dist",
+        "dev": "tsc --watch",
+        "test": "vitest",
+        "test:coverage": "vitest --coverage",
+        "lint": "eslint src --ext .ts",
+        "prepublishOnly": "npm run build && npm test",
+        "example": "npx tsx examples/basic-usage.ts"
+    },
+    "keywords": [
+        "context-engineering",
+        "llm",
+        "agent",
+        "memory",
+        "session",
+        "gemini",
+        "ai",
+        "context",
+        "conversation",
+        "long-term-memory",
+        "rag"
+    ],
+    "author": "Link Team",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/your-org/context-engine.git"
+    },
+    "bugs": {
+        "url": "https://github.com/your-org/context-engine/issues"
+    },
+    "homepage": "https://github.com/your-org/context-engine#readme",
+    "devDependencies": {
+        "@types/better-sqlite3": "^7.6.13",
+        "@types/node": "^20.10.0",
+        "@types/uuid": "^9.0.7",
+        "@typescript-eslint/eslint-plugin": "^6.13.0",
+        "@typescript-eslint/parser": "^6.13.0",
+        "eslint": "^8.55.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.0",
+        "vitest": "^1.0.0"
+    },
+    "dependencies": {
+        "@google/generative-ai": "^0.24.1",
+        "@types/crypto-js": "^4.2.2",
+        "better-sqlite3": "^12.5.0",
+        "crypto-js": "^4.2.0",
+        "dotenv": "^17.2.3",
+        "eventemitter3": "^5.0.1",
+        "p-retry": "^4.6.2",
+        "uuid": "^9.0.1"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
