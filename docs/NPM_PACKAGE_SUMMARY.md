@@ -133,12 +133,12 @@ npm publish
 {
   "name": "@your-org/context-engine",  // 改为你的组织/包名
   "repository": {
-    "url": "https://github.com/your-org/context-engine.git"  // 改为实际的 repo URL
+    "url": "https://github.com/55387/context-engine.git"  // 改为实际的 repo URL
   },
   "bugs": {
-    "url": "https://github.com/your-org/context-engine/issues"  // 改为实际的 issues URL
+    "url": "https://github.com/55387/context-engine/issues"  // 改为实际的 issues URL
   },
-  "homepage": "https://github.com/your-org/context-engine#readme"  // 改为实际的 homepage
+  "homepage": "https://github.com/55387/context-engine#readme"  // 改为实际的 homepage
 }
 ```
 

@@ -264,5 +264,5 @@ Context Engine 包含完整功能，约 351KB（未压缩）。如果只需要�
 ## 🆘 获取帮助
 
 - 📖 [完整文档](./TECHNICAL_DOCS.md)
-- 💬 [GitHub Discussions](https://github.com/your-org/context-engine/discussions)
-- 🐛 [报告问题](https://github.com/your-org/context-engine/issues)
+- 💬 [GitHub Discussions](https://github.com/55387/context-engine/discussions)
+- 🐛 [报告问题](https://github.com/55387/context-engine/issues)
